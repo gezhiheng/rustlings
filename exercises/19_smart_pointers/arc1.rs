@@ -22,8 +22,8 @@ use std::{sync::Arc, thread};
 fn main() {
     let numbers: Vec<_> = (0..100u32).collect();
 
-    // TODO: Define `shared_numbers` by using `Arc`.
-    // let shared_numbers = ???;
+    // Define `shared_numbers` by using `Arc`.
+    let shared_numbers = Arc::new(numbers);
 
     let mut join_handles = Vec::new();
 
