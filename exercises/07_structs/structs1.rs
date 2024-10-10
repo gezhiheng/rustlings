@@ -21,7 +21,7 @@ mod tests {
 
     #[test]
     fn regular_structs() {
-        // TODO: Instantiate a regular struct.
+        // : Instantiate a regular struct.
         let green = ColorRegularStruct {
             red: 0,
             green: 255,
@@ -45,7 +45,7 @@ mod tests {
 
     #[test]
     fn unit_structs() {
-        // TODO: Instantiate a unit struct.
+        // : Instantiate a unit struct.
         let unit_struct = UnitStruct;
         let message = format!("{unit_struct:?}s are fun!");
 

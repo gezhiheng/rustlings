@@ -1,4 +1,4 @@
-// TODO: Add some function with the name `call_me` without arguments or a return value.
+// : Add some function with the name `call_me` without arguments or a return value.
 pub fn call_me() {
     
 }

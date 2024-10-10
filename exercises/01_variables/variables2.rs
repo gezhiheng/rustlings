@@ -1,5 +1,5 @@
 fn main() {
-    // TODO: Change the line below to fix the compiler error.
+    // Change the line below to fix the compiler error.
     let x = 10;
 
     if x == 10 {

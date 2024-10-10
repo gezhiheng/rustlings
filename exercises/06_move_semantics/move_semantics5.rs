@@ -1,6 +1,6 @@
 #![allow(clippy::ptr_arg)]
 
-// TODO: Fix the compiler errors without changing anything except adding or
+// : Fix the compiler errors without changing anything except adding or
 // removing references (the character `&`).
 
 // Shouldn't take ownership
